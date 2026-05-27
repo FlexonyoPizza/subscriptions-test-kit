@@ -17,6 +17,7 @@ comparison_config:
         - https://inferno-qa.healthit.gov/suites # qa
     - replacement: <UUID>
       pattern: /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/i
+    - pattern: /If the parameter '(?:subscription|topic)' is an instance of the parameter defined in the base FHIR standard[^"]*/
 
 steps:
   - session: client
